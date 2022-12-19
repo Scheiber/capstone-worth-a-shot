@@ -7,6 +7,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Establishments.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
+import ScrollUpButton from "react-scroll-up-button";
 const API = process.env.REACT_APP_API_URL;
 
 const Establishments = ({ user }) => {
@@ -56,6 +57,7 @@ const Establishments = ({ user }) => {
           );
         })}
       </section>
+      <ScrollUpButton style={{ backgroundColor: "rgb(253, 197, 0, 0.75)" }} />
     </div>
   );
 };
