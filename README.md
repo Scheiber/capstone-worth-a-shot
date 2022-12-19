@@ -10,7 +10,7 @@ In addition to helping you find the best bars and nightclubs, Worth a Shot also 
 
 ## Links
 
-- [Deployed Frontend](https://washot.netlify.app/)
+- [Deployed Frontend](https://wshot.netlify.app/)
 - [Deployed Backend](https://worthashot.fly.dev/)
 - [Trello Board](https://trello.com/b/41mhSL26/worth-a-shot-group-6-capstone)
 - [Wireframes](https://whimsical.com/worth-a-shot-Ve33oA8m3TCiNNJxam5dGJ)
@@ -26,7 +26,7 @@ In addition to helping you find the best bars and nightclubs, Worth a Shot also 
 
 - This project was created using a React-based front-end, an Express-based back-end, and a PostgreSQL database.
 - The front-end is hosted on Netlify and the back-end is hosted on Render.
-- Establishment data is dynamically fetched using the [Yelp Fusion API](https://fusion.yelp.com/), and drink data is stored in [our back-end database](https://worth-a-shot-api-server.onrender.com/alcohols).
+- Establishment data is dynamically fetched using the [Yelp Fusion API](https://fusion.yelp.com/), and drink data is stored in [our back-end database](https://worthashot.fly.dev/alcohols).
 - This project went from conception to completion in five weeks and was created while fully remote through the [Pursuit](https://www.pursuit.org/) program.
 
 ## Local Setup
