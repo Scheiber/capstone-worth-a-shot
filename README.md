@@ -10,8 +10,8 @@ In addition to helping you find the best bars and nightclubs, Worth a Shot also 
 
 ## Links
 
-- [Deployed Frontend](https://worth-a-shot.netlify.app/)
-- [Deployed Backend](https://worth-a-shot-api-server.onrender.com/)
+- [Deployed Frontend](https://washot.netlify.app/)
+- [Deployed Backend](https://worthashot.onrender.com/)
 - [Trello Board](https://trello.com/b/41mhSL26/worth-a-shot-group-6-capstone)
 - [Wireframes](https://whimsical.com/worth-a-shot-Ve33oA8m3TCiNNJxam5dGJ)
 - [ERD](https://cloud.smartdraw.com/editor.aspx?depoId=39282039&credID=-42278956&pubDocShare=156DAD5C930F80FB15FB0D65C4004AA7BE6)
