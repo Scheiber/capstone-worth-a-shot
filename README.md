@@ -1,6 +1,7 @@
 # Worth a Shot - Capstone Project
 
 ![Banner](https://user-images.githubusercontent.com/794551/205726200-f641bc94-541e-4c3c-bab1-3647c11cb214.png)
+
 ## Revolutionize your nightlife experience
 
 Looking to get back into the nightlife scene? Whether you're a seasoned bar-hopper or just looking to mix things up, Worth a Shot is your new best friend for finding the best nightlife options your city has to offer. With our sleek and user-friendly interface, which works great on both desktop and mobile platforms, our app allows you to search for bars, nightclubs, and other establishments based on type of atmosphere you're looking for. If you've ever felt bored or overwhelmed with the nightlife options in your city, we can help you explore and discover new places to try. Using our unique onboarding process combined with data provided by the Yelp API, we learn about your preferences and tastes, so we can find you the perfect spot for a night out.
@@ -18,9 +19,8 @@ In addition to helping you find the best bars and nightclubs, Worth a Shot also 
 ## Contributors
 
 - [Matt Munroe](https://github.com/MattNMunroe) - Front-End/Synergist
-- [Cesar Ortiz](https://github.com/CeazTheMoment)
-- [Jonathan Scheiber](https://github.com/Scheiber) - Design/UX Lead
 - [Emalee Soto](https://github.com/EmaleeSoto) - Back-End/Team Lead
+- [Jonathan Scheiber](https://github.com/Scheiber) - Design/UX Lead
 
 ## Technical Details
 
@@ -103,4 +103,4 @@ nodemon server.js
 
 ## Acknowledgments
 
-Much gratitude goes towards the testers, reviewers, and consultants of this project, particularly our instructors Myra Smith, Tristan Angieri, and Gary Kertis, as well as our mentors Maria Masiar and Risham Waraich.
+Much gratitude goes towards our instructors, mentors, and colleagues for their support and encouragement, particularly Myra Smith, Gary Kertis, Tristan Angieri, Maria Masiar, Na'taja Flood, and Lakisha Gonsalves.
