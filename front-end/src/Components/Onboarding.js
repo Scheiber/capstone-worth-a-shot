@@ -245,50 +245,60 @@ export default function Onboarding({ userFirebaseId, callback }) {
               Choose your favorite beverage flavors:{" "}
             </label>
             <br />
-            <label>Sweet</label>
-            <input
-              id="flavors"
-              type="checkbox"
-              onChange={handleFlavorsAdding}
-              name="flavor-1"
-              value="Sweet"
-            />
+            <label className="checkmark">
+              Sweet
+              <input
+                id="flavors"
+                type="checkbox"
+                onChange={handleFlavorsAdding}
+                name="flavor-1"
+                value="Sweet"
+              />
+            </label>
             <br></br>
-            <label>Bitter</label>
-            <input
-              id="flavors"
-              type="checkbox"
-              onChange={handleFlavorsAdding}
-              name="flavor-2"
-              value="Bitter"
-            />
+            <label className="checkmark">
+              Bitter
+              <input
+                id="flavors"
+                type="checkbox"
+                onChange={handleFlavorsAdding}
+                name="flavor-2"
+                value="Bitter"
+              />
+            </label>
             <br></br>
-            <label>Sour</label>
-            <input
-              id="flavors"
-              type="checkbox"
-              onChange={handleFlavorsAdding}
-              name="flavor-3"
-              value="Sour"
-            />
+            <label className="checkmark">
+              Sour
+              <input
+                id="flavors"
+                type="checkbox"
+                onChange={handleFlavorsAdding}
+                name="flavor-3"
+                value="Sour"
+              />
+            </label>
             <br />
-            <label>Tangy</label>
-            <input
-              id="flavors"
-              type="checkbox"
-              onChange={handleFlavorsAdding}
-              name="flavor-4"
-              value="Tangy"
-            />
+            <label className="checkmark">
+              Tangy
+              <input
+                id="flavors"
+                type="checkbox"
+                onChange={handleFlavorsAdding}
+                name="flavor-4"
+                value="Tangy"
+              />
+            </label>
             <br />
-            <label>Dry</label>
-            <input
-              id="flavors"
-              type="checkbox"
-              onChange={handleFlavorsAdding}
-              name="flavor-5"
-              value="Dry"
-            />
+            <label className="checkmark">
+              Dry
+              <input
+                id="flavors"
+                type="checkbox"
+                onChange={handleFlavorsAdding}
+                name="flavor-5"
+                value="Dry"
+              />
+            </label>
             <br />
           </section>
           <label className="onboarding-label">Pick your venue vibes</label>
