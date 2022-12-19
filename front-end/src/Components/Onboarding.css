@@ -2,11 +2,6 @@
   display: none;
 }
 
-.clicked {
-  background-color: #459BC4;
-  color: #F4D247;
-}
-
 .onboarding {
   text-align: center;
   margin-left: 15%;
@@ -14,9 +9,9 @@
 }
 
 .info-wrap-onboarding {
-  border: 1px solid #F3C743;
+  border: 1px solid #f3c743;
   border-radius: 15px;
-  background-color: #061A43;
+  background-color: #061a43;
   text-align: center;
   margin: auto;
   margin-top: 3%;

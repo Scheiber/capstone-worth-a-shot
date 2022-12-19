@@ -46,8 +46,10 @@
 }
 
 .clicked {
-  background-color: #459bc4;
-  color: #f4d247;
+  background-color: #061a43;
+  color: #fdc500;
+  border: 5px solid #fdc500;
+  padding: 10px 10px;
 }
 
 #bev-flavors {
