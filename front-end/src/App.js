@@ -26,7 +26,6 @@ import EditProfile from "./Components/EditProfile";
 import ShowEstablishment from "./Components/ShowEstablishment";
 import FourOFour from "./Pages/FourOFour";
 import axios from "axios";
-import Trending from "./Components/Trending";
 import ScrollToTop from "./Components/scrollToTop";
 const API = process.env.REACT_APP_API_URL;
 
@@ -179,7 +178,6 @@ const App = () => {
             path="alcohols/drinksforyou"
             element={<DrinksByPrefs user={user} />}
           />
-          <Route path="/trending" element={<Trending />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<FourOFour loggedIn={loggedIn} />} />
         </Routes>
