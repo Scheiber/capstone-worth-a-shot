@@ -30,6 +30,11 @@ const Drinks = () => {
 
   return (
     <div data-aos="fade-up">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Drinks</title>
+        </Helmet>
+      </HelmetProvider>
       <Link id="alcohol-back-button" to="/alcohols/categories">
         <button>Back</button>
       </Link>
