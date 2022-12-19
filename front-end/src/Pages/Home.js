@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <div className="home-container">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Home</title>
+        </Helmet>
+      </HelmetProvider>
       <div className="home-subcontainer">
         <h1 className="home-header">This is Worth a Shot!</h1>
         <section className="home-text-container">

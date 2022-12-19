@@ -3,6 +3,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./DrinksCategories.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 const API = process.env.REACT_APP_API_URL;
 
 const DrinksCategories = ({ user }) => {
@@ -107,6 +108,11 @@ const DrinksCategories = ({ user }) => {
 
   return (
     <div>
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Drinks</title>
+        </Helmet>
+      </HelmetProvider>
       <Link to="/establishments">
         <button id="index-button">Find Bars</button>
       </Link>

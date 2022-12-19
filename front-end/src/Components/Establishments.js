@@ -6,6 +6,7 @@ import axios from "axios";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Establishments.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 const API = process.env.REACT_APP_API_URL;
 
 const Establishments = ({ user }) => {
@@ -32,6 +33,11 @@ const Establishments = ({ user }) => {
 
   return (
     <div>
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Bars and Clubs</title>
+        </Helmet>
+      </HelmetProvider>
       {user.age >= 21 ? (
         <Link to="/alcohols/categories">
           <button id="index-button">Find Alcohol</button>

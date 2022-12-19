@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Favorites.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 const API = process.env.REACT_APP_API_URL;
 
 export default function Favorites({ user, Favorite }) {
@@ -21,6 +22,11 @@ export default function Favorites({ user, Favorite }) {
 
   return (
     <div className="favorite-page">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Favorites</title>
+        </Helmet>
+      </HelmetProvider>
       <h1>Your Favorite Places</h1>
       <div className="favorites-container">
         {likedEstablishments.map((establishment, index) => {

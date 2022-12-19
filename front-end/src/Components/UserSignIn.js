@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import app from "../firebase";
 import axios from "axios";
 import "./UserSignIn.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 const API = process.env.REACT_APP_API_URL;
 
 export default function UserSignIn({ resetPassword }) {
@@ -55,6 +56,11 @@ export default function UserSignIn({ resetPassword }) {
   };
   return (
     <div className="sign-in-section">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Log In</title>
+        </Helmet>
+      </HelmetProvider>
       <div className="sign-in-section-container">
         <h1 className="login-header">Let's get you logged in.</h1>
         <div className="input-label-wrap">

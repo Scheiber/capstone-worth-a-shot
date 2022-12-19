@@ -3,6 +3,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import app from "../firebase";
 import "./UserSignUp.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 export default function SignUp() {
   const [profile, setProfile] = useState({
@@ -62,6 +63,11 @@ export default function SignUp() {
 
   return (
     <div className="sign-up-section">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Sign Up</title>
+        </Helmet>
+      </HelmetProvider>
       <div className="sign-up-container">
         <h1 className="signup-header">Let's get you signed up.</h1>
         <div className="input-label-wrap">

@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "./EditProfile.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 const API = process.env.REACT_APP_API_URL;
 
 function EditProfile({
@@ -111,6 +112,11 @@ function EditProfile({
   };
   return (
     <div className="edit-profile">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Edit Profile</title>
+        </Helmet>
+      </HelmetProvider>
       <h1>Let's make sure we've got everything right.</h1>
       {!userVerified ? (
         <h4 id="not-verified" onClick={sendEmailVerification}>

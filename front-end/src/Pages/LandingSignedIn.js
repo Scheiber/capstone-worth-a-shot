@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./LandingSignedIn.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const LandingPageSignedIn = ({ user }) => {
   return (
     <div className="landing-container">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Home</title>
+        </Helmet>
+      </HelmetProvider>
       <h1>Hi {user.name}, what are your plans tonight?</h1>
       <div className="image-container">
         <div>

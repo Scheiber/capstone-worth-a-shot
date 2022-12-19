@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./About.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 const About = () => {
   useEffect(() => {
@@ -9,6 +10,11 @@ const About = () => {
   }, []);
   return (
     <section className="about-section" data-aos="fade-up">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | About</title>
+        </Helmet>
+      </HelmetProvider>
       <h1 className="about-header">
         Revolutionize your nightlife experience with Worth a Shot
       </h1>

@@ -1,8 +1,14 @@
 import "./FourOFour.css";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 
 export default function FourOFour({ loggedIn }) {
   return (
     <div className="error-page">
+      <HelmetProvider>
+        <Helmet>
+          <title>Worth a Shot | Not Found</title>
+        </Helmet>
+      </HelmetProvider>
       <div className="error-headings">
         <h1 className="error-title">404: Bar's closed.</h1>
         <h2 className="error-tagline">
