@@ -27,6 +27,7 @@ import ShowEstablishment from "./Components/ShowEstablishment";
 import FourOFour from "./Pages/FourOFour";
 import axios from "axios";
 import Trending from "./Components/Trending";
+import ScrollToTop from "./Components/scrollToTop";
 const API = process.env.REACT_APP_API_URL;
 
 const App = () => {
@@ -123,6 +124,7 @@ const App = () => {
   return (
     <div className="worth-a-shot">
       <Router>
+        <ScrollToTop />
         <NavBar
           signOutOfAccount={signOutOfAccount}
           loggedIn={loggedIn}
