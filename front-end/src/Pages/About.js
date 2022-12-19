@@ -3,7 +3,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./About.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
-import ScrollUpButton from "react-scroll-up-button";
 
 const About = () => {
   useEffect(() => {
@@ -49,7 +48,7 @@ const About = () => {
         <article>
           <img
             className="headshot"
-            src="./headshots/matt.png"
+            src="./images/headshots/matt.png"
             alt="Headshot of Matt Munroe"
           />
           <h3 className="bio-name">Matt Munroe</h3>
@@ -63,7 +62,7 @@ const About = () => {
               className="icon"
               alt="GitHub"
               title="GitHub"
-              src="./icons/github.png"
+              src="./images/icons/github.png"
             />
           </a>
           <a
@@ -75,7 +74,7 @@ const About = () => {
               className="icon"
               alt="LinkedIn"
               title="LinkedIn"
-              src="./icons/linkedin.png"
+              src="./images/icons/linkedin.png"
             />
           </a>
           <p className="bio-text">
@@ -87,7 +86,7 @@ const About = () => {
         <article>
           <img
             className="headshot"
-            src="./headshots/emalee.png"
+            src="./images/headshots/emalee.png"
             alt="Headshot of Emalee Soto"
           />
           <h3 className="bio-name">Emalee Soto</h3>
@@ -101,7 +100,7 @@ const About = () => {
               className="icon"
               alt="GitHub"
               title="GitHub"
-              src="./icons/github.png"
+              src="./images/icons/github.png"
             />
           </a>
           <a
@@ -113,7 +112,7 @@ const About = () => {
               className="icon"
               alt="LinkedIn"
               title="LinkedIn"
-              src="./icons/linkedin.png"
+              src="./images/icons/linkedin.png"
             />
           </a>
           <p className="bio-text">
@@ -126,7 +125,7 @@ const About = () => {
         <article>
           <img
             className="headshot"
-            src="./headshots/jonathan.png"
+            src="./images/headshots/jonathan.png"
             alt="Headshot of Jonathan Scheiber"
           />
           <h3 className="bio-name">Jonathan Scheiber</h3>
@@ -140,7 +139,7 @@ const About = () => {
               className="icon"
               alt="GitHub"
               title="GitHub"
-              src="./icons/github.png"
+              src="./images/icons/github.png"
             />
           </a>
           <a
@@ -152,7 +151,7 @@ const About = () => {
               className="icon"
               alt="LinkedIn"
               title="LinkedIn"
-              src="./icons/linkedin.png"
+              src="./images/icons/linkedin.png"
             />
           </a>
           <p className="bio-text">
@@ -166,7 +165,7 @@ const About = () => {
       <div className="source-text">
         <p>
           <a
-            href="https://github.com/Scheiber/capstone-worth-a-shot"
+            href="https://github.com/Scheiber/worthashot"
             target="_blank"
             rel="noreferrer"
           >
@@ -178,7 +177,6 @@ const About = () => {
           Made with love in New York City. The greatest city in the world.
         </p>
       </div>
-      <ScrollUpButton style={{ backgroundColor: "rgb(253, 197, 0, 0.9)" }} />
     </section>
   );
 };

@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-#source-info a {
-  color: #F4C744;
-}
-
 #type-info {
   display: flex;
   height: auto;
