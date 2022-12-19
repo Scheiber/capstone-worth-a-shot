@@ -11,13 +11,14 @@
 }
 
 .home-text span {
-  color: #F5D332;
+  color: #f5d332;
   font-weight: bold;
 }
 
-.home-container h4 {
+.quote {
   font-style: italic;
-  color: #F4C745;
+  font-weight: bold;
+  color: #f4c745;
 }
 
 .home-container img {

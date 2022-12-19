@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
+const quotes = require("../Pages/Quotes").default;
+const i = Math.floor(Math.random() * quotes.length);
 
 const Home = () => {
   return (
@@ -31,11 +33,9 @@ const Home = () => {
         <Link to={`/sign-up`}>
           <button className="large-button">Let's get started!</button>
         </Link>
-        <h4>
-          &ldquo;I feel sorry for people that don't drink, because when they
-          wake up in the morning, that is the best they're going to feel all
-          day.&rdquo; &#8211; Frank Sinatra
-        </h4>
+        <p className="quote">
+          {quotes[i]}
+        </p>
       </div>
       <img
         className="splash"
