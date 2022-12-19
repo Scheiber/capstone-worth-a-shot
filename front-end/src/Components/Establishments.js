@@ -57,7 +57,7 @@ const Establishments = ({ user }) => {
           );
         })}
       </section>
-      <ScrollUpButton style={{ backgroundColor: "rgb(253, 197, 0, 0.75)" }} />
+      <ScrollUpButton style={{ backgroundColor: "rgb(253, 197, 0, 0.9)" }} />
     </div>
   );
 };

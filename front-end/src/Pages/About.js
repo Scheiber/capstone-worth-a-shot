@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./About.css";
 import { HelmetProvider, Helmet } from "react-helmet-async";
+import ScrollUpButton from "react-scroll-up-button";
 
 const About = () => {
   useEffect(() => {
@@ -165,7 +166,7 @@ const About = () => {
       <div className="source-text">
         <p>
           <a
-            href="https://github.com/EmaleeSoto/capstone-worth-a-shot"
+            href="https://github.com/Scheiber/capstone-worth-a-shot"
             target="_blank"
             rel="noreferrer"
           >
@@ -177,6 +178,7 @@ const About = () => {
           Made with love in New York City. The greatest city in the world.
         </p>
       </div>
+      <ScrollUpButton style={{ backgroundColor: "rgb(253, 197, 0, 0.9)" }} />
     </section>
   );
 };
