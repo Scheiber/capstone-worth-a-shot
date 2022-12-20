@@ -46,7 +46,7 @@ Prerequisites are Git and Node.js.
 First, navigate to the front-end directory.
 
 ```bash
-cd capstone-worth-a-shot/front-end
+cd worthashot/front-end
 ```
 
 Next, create a .env file to allow the front-end to access the back-end locally.
@@ -74,7 +74,7 @@ Prerequisites are Git, Node.js, Postgres, and a [Yelp Fusion API key](https://fu
 First, navigate to the back-end directory.
 
 ```bash
-cd capstone-worth-a-shot/back-end
+cd worthashot/back-end
 ```
 
 Next, create a .env file to access the database locally, inserting your Yelp Fusion API key into the command where indicated.
