@@ -25,16 +25,16 @@ In addition to helping you find the best bars and nightclubs, Worth a Shot also 
 ## Technical Details
 
 - This project was created using a React-based front-end, an Express-based back-end, and a PostgreSQL database.
-- The front-end is hosted on Netlify and the back-end is hosted on Render.
+- The front-end is hosted on [Netlify](https://www.netlify.com/) and the back-end is hosted on [Fly.io](https://fly.io/).
 - Establishment data is dynamically fetched using the [Yelp Fusion API](https://fusion.yelp.com/), and drink data is stored in [our back-end database](https://worthashot.fly.dev/alcohols).
-- This project went from conception to completion in five weeks and was created while fully remote through the [Pursuit](https://www.pursuit.org/) program.
+- This project went from conception to completion in five weeks and was created while fully remote through the [Pursuit](https://www.pursuit.org/) fellowship.
 
 ## Local Setup
 
 First, clone this repository to your local machine.
 
 ```bash
-git clone git@github.com:EmaleeSoto/capstone-worth-a-shot.git
+git clone git@github.com:Scheiber/worthashot.git
 ```
 
 It is recommended to use two separate terminal instances so that the front-end and back-end can run concurrently.
