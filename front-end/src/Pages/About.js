@@ -49,6 +49,7 @@ const About = () => {
           <img
             className="headshot"
             src="./images/headshots/matt.png"
+            title="“Who dares, wins.”"
             alt="Headshot of Matt Munroe"
           />
           <h3 className="bio-name">Matt Munroe</h3>
@@ -87,6 +88,7 @@ const About = () => {
           <img
             className="headshot"
             src="./images/headshots/emalee.png"
+            title="“To embrace tomorrow, you must let go of yesterday.”"
             alt="Headshot of Emalee Soto"
           />
           <h3 className="bio-name">Emalee Soto</h3>
@@ -126,6 +128,7 @@ const About = () => {
           <img
             className="headshot"
             src="./images/headshots/jonathan.png"
+            title="“It's never too late to be the person you want to be. You need to choose the life you want.”"
             alt="Headshot of Jonathan Scheiber"
           />
           <h3 className="bio-name">Jonathan Scheiber</h3>
