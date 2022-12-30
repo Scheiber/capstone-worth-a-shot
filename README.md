@@ -1,8 +1,19 @@
-# Worth a Shot - Capstone Project
+# Worth a Shot <!-- omit from toc -->
 
 ![Banner](https://user-images.githubusercontent.com/794551/205726200-f641bc94-541e-4c3c-bab1-3647c11cb214.png)
 
-## Revolutionize your nightlife experience
+## Table of Contents <!-- omit from toc -->
+
+- [About](#about)
+- [Links](#links)
+- [Contributors](#contributors)
+- [Technical Details](#technical-details)
+- [Local Setup](#local-setup)
+  - [Front-end Setup](#front-end-setup)
+  - [Back-end Setup](#back-end-setup)
+- [Acknowledgments](#acknowledgments)
+
+## About
 
 Looking to get back into the nightlife scene? Whether you're a seasoned bar-hopper or just looking to mix things up, Worth a Shot is your new best friend for finding the best nightlife options your city has to offer. With our sleek and user-friendly interface, which works great on both desktop and mobile platforms, our app allows you to search for bars, nightclubs, and other establishments based on type of atmosphere you're looking for. If you've ever felt bored or overwhelmed with the nightlife options in your city, we can help you explore and discover new places to try. Using our unique onboarding process combined with data provided by the Yelp API, we learn about your preferences and tastes, so we can find you the perfect spot for a night out.
 
