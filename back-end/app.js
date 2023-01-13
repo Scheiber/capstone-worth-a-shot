@@ -20,7 +20,15 @@ app.use("/bars", barsController);
 
 // ROUTES
 app.get("/", (req, res) => {
-  res.send("Welcome to Worth a Shot!");
+  res.send(`<style>
+    body {color: white; background: #00296b;}
+    a {color: #fdc500;}
+    h1 {text-align:center; font-family: 'Helvetica', 'Arial', sans-serif; margin: 0px;}
+    .shotglass {font-size: 100px;}
+    </style>
+    <h1 class="shotglass">🥃</h1>
+    <h1>Welcome to the <a href="https://worthashot.scheiber.dev/">Worth a Shot</a> Backend!</h1>
+    <p style="text-align:center; font-family: 'Helvetica', 'Arial', sans-serif;"><a href="https://github.com/Scheiber/worthashot">Find out more.</a></p>`);
 });
 
 app.get("*", (req, res) => {
