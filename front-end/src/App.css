@@ -1,3 +1,26 @@
+::selection {
+  background: #fdc500;
+  color: #00296b;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+::-webkit-scrollbar-track {
+  background: #001b46;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fdc500;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #927200;
+}
+
 body {
   background-color: #00296b;
   color: #ffffff;
