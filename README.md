@@ -21,7 +21,7 @@ In addition to helping you find the best bars and nightclubs, Worth a Shot also 
 
 ## Links
 
-- [Deployed Frontend](https://wshot.netlify.app/)
+- [Deployed Frontend](https://worthashot.scheiber.dev/)
 - [Deployed Backend](https://worthashot.fly.dev/)
 - [Trello Board](https://trello.com/b/41mhSL26/worth-a-shot-group-6-capstone)
 - [Wireframes](https://whimsical.com/worth-a-shot-Ve33oA8m3TCiNNJxam5dGJ)
