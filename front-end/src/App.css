@@ -29,10 +29,12 @@ body {
 
 a {
   color: #ffffff;
+  transition: color 0.5s;
 }
 
 a:hover {
   color: #fdc500;
+  transition: color 0.5s;
 }
 
 h1 {
@@ -61,6 +63,7 @@ input[type="submit"] {
   margin: 5px;
   cursor: pointer;
   border-radius: 4px;
+  transition: background-color 0.5s;
 }
 
 input[type="submit"] {
@@ -71,6 +74,7 @@ button:hover,
 input[type="submit"]:hover {
   background-color: #e7e7e7;
   color: black;
+  transition: background-color 0.5s;
 }
 
 .large-button {
