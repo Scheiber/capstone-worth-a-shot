@@ -22,9 +22,9 @@ In addition to helping you find the best bars and nightclubs, Worth a Shot also 
 
 ## Demo
 
-Worth a Shot was demonstrated live by its creators Matt Monroe, Emalee Soto, and Jonathan Scheiber at the Pursuit 8.3 Demo Day at Google NYC on December 15th, 2022. [Watch it on YouTube](https://www.youtube.com/watch?v=HdrEIB6mWjU) or by using the embedded video below.
+Worth a Shot was demonstrated live by its creators Matt Monroe, Emalee Soto, and Jonathan Scheiber at the Pursuit 8.3 Demo Day at Google NYC on December 15th, 2022. [Watch it on YouTube](https://www.youtube.com/watch?v=HdrEIB6mWjU) or by clicking the image below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HdrEIB6mWjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![Worth a Shot Demo](https://user-images.githubusercontent.com/794551/214463445-bcb69c23-88c6-4c70-a80f-f28fa010fbc4.jpeg)](http://www.youtube.com/watch?v=HdrEIB6mWjU "Worth a Shot Demo")
 
 ## Links
 
