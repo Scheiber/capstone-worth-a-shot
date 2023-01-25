@@ -43,6 +43,17 @@ const About = () => {
           trendy nightclub, Worth a Shot has you covered.
         </p>
       </div>
+      <div className="demo-video-container">
+        <h1 className="about-header">Worth a Shot at Pursuit 8.3 Demo Day</h1>
+        <iframe
+          className="demo-video-frame"
+          src="https://www.youtube.com/embed/HdrEIB6mWjU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
       <h1 className="bios-header">Our Team</h1>
       <section className="bios-section">
         <article>
@@ -168,7 +179,7 @@ const About = () => {
       <div className="source-text">
         <p>
           <a
-            href="https://github.com/Scheiber/worthashot"
+            href="https://github.com/scheiber/worthashot"
             target="_blank"
             rel="noreferrer"
           >

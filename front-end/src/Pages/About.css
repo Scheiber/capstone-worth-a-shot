@@ -89,11 +89,23 @@
   transition: filter 1s;
 }
 
+.demo-video-container {
+  text-align: center;
+}
+
+.demo-video-frame {
+  aspect-ratio: 16 / 9;
+  width: 70%;
+}
+
 @media screen and (max-width: 1024px) {
   .bios-section {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 0.5rem;
     place-content: center;
+  }
+  .demo-video-frame {
+    width: 80%;
   }
 }
 
@@ -109,5 +121,8 @@
   .about-text {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .demo-video-frame {
+    width: 90%;
   }
 }
