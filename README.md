@@ -5,6 +5,7 @@
 ## Table of Contents <!-- omit from toc -->
 
 - [About](#about)
+- [Demo](#demo)
 - [Links](#links)
 - [Contributors](#contributors)
 - [Technical Details](#technical-details)
@@ -18,6 +19,12 @@
 Looking to get back into the nightlife scene? Whether you're a seasoned bar-hopper or just looking to mix things up, Worth a Shot is your new best friend for finding the best nightlife options your city has to offer. With our sleek and user-friendly interface, which works great on both desktop and mobile platforms, our app allows you to search for bars, nightclubs, and other establishments based on type of atmosphere you're looking for. If you've ever felt bored or overwhelmed with the nightlife options in your city, we can help you explore and discover new places to try. Using our unique onboarding process combined with data provided by the Yelp API, we learn about your preferences and tastes, so we can find you the perfect spot for a night out.
 
 In addition to helping you find the best bars and nightclubs, Worth a Shot also offers a feature that allows you to discover new drinks and cocktails. You can browse our curated list to search for a specific type of drink. Each drink comes with a description and a list of ingredients, making it easy for you to try out something new at the bar. No matter if you're looking for a laid-back sports bar or a trendy nightclub, Worth a Shot has you covered.
+
+## Demo
+
+Worth a Shot was demonstrated live by its creators Matt Monroe, Emalee Soto, and Jonathan Scheiber at the Pursuit 8.3 Demo Day at Google NYC on December 15th, 2022. [Watch it on YouTube](https://www.youtube.com/watch?v=HdrEIB6mWjU) or by using the embedded video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HdrEIB6mWjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Links
 
