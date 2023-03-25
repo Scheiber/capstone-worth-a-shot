@@ -25,8 +25,8 @@ const About = () => {
           your new best friend for finding the best nightlife options your city
           has to offer. With our sleek and user-friendly interface, which works
           great on both desktop and mobile platforms, our app allows you to
-          search for bars, nightclubs, and other establishments based on type of
-          atmosphere you're looking for. If you've ever felt bored or
+          search for bars, nightclubs, and other establishments based on the
+          type of atmosphere you're looking for. If you've ever felt bored or
           overwhelmed with the nightlife options in your city, we can help you
           explore and discover new places to try. Using our unique onboarding
           process combined with data provided by the Yelp API, we learn about
@@ -47,11 +47,12 @@ const About = () => {
         <h1 className="about-header">Worth a Shot at Pursuit 8.3 Demo Day</h1>
         <iframe
           className="demo-video-frame"
-          src="https://www.youtube.com/embed/HdrEIB6mWjU"
+          src="https://www.youtube.com/embed/HdrEIB6mWjU?rel=0"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
+          allowFullScreen="allowFullScreen"
         ></iframe>
       </div>
       <h1 className="bios-header">Our Team</h1>
