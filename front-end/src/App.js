@@ -23,6 +23,7 @@ import DrinksCategories from "./Components/DrinksCategories";
 import Establishments from "./Components/Establishments";
 import Favorites from "./Components/Favorites";
 import EditProfile from "./Components/EditProfile";
+import Footer from "./Components/Footer";
 import ShowEstablishment from "./Components/ShowEstablishment";
 import FourOFour from "./Pages/FourOFour";
 import axios from "axios";
@@ -182,6 +183,7 @@ const App = () => {
           <Route path="*" element={<FourOFour loggedIn={loggedIn} />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 };
