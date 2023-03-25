@@ -22,10 +22,10 @@ const About = () => {
         <p>
           Looking to get back into the nightlife scene? Whether you're a
           seasoned bar-hopper or just looking to mix things up, Worth a Shot is
-          your new best friend for finding the best nightlife options your city
-          has to offer. With our sleek and user-friendly interface, which works
-          great on both desktop and mobile platforms, our app allows you to
-          search for bars, nightclubs, and other establishments based on the
+          your new best friend for finding the best nightlife options that your
+          city has to offer. With our sleek and user-friendly interface, which
+          works great on both desktop and mobile platforms, our app allows you
+          to search for bars, nightclubs, and other establishments based on the
           type of atmosphere you're looking for. If you've ever felt bored or
           overwhelmed with the nightlife options in your city, we can help you
           explore and discover new places to try. Using our unique onboarding
