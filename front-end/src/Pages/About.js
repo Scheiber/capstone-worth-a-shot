@@ -189,7 +189,8 @@ const About = () => {
           available on GitHub.
         </p>
         <p className="source-text">
-          Made with love in New York City. The greatest city in the world.
+          Made with ❤️ love in 🗽🏙️ New York City. The greatest city in the
+          world.
         </p>
       </div>
     </section>
