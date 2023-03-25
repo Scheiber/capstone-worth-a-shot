@@ -1,0 +1,33 @@
+ __        __         _   _               ____  _           _   
+ \ \      / /__  _ __| |_| |__     __ _  / ___|| |__   ___ | |_ 
+  \ \ /\ / / _ \| '__| __| '_ \   / _` | \___ \| '_ \ / _ \| __|
+   \ V  V / (_) | |  | |_| | | | | (_| |  ___) | | | | (_) | |_ 
+    \_/\_/ \___/|_|   \__|_| |_|  \__,_| |____/|_| |_|\___/ \__|
+
+The revolutionary new way to experience nightlife.
+
+/* TEAM */
+Matt Munroe
+Role: Front-End/Synergist
+GitHub: https://github.com/MattNMunroe
+LinkedIn: https://www.linkedin.com/in/matthew-munroe-720b8b199/
+
+Emalee Soto
+Role: Back-End/Team Lead
+GitHub: https://github.com/EmaleeSoto
+LinkedIn: https://www.linkedin.com/in/emalee-soto/
+
+Jonathan Scheiber
+Role: Design/UX Lead
+GitHub: https://github.com/scheiber
+LinkedIn: https://www.linkedin.com/in/jonscheiber/
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: React, Express, PostgreSQL
+Hosts: Netlify (front-end), Fly.io (back-end)
+API: Yelp Fusion
+Software: Visual Studio Code
+
+Worth a Shot was created in November-December 2022 while fully remote through the Pursuit fellowship.
+https://www.pursuit.org/
