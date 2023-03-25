@@ -14,7 +14,7 @@ const YELP_API = process.env.REACT_APP_YELP_API_URL;
 export default function ShowEstablishment({ user }) {
   const [establishment, setEstablishment] = useState({});
   const [venueReviews, setVenueReviews] = useState([]);
-  const [like, setLike] = useState(false);
+  const [setLike] = useState(false);
   const navigate = useNavigate();
   let { id } = useParams();
 
@@ -78,7 +78,7 @@ export default function ShowEstablishment({ user }) {
           <h4>Contact: {establishment.display_phone}</h4>
           <h4>Rating: {establishment.rating} / 5</h4>
           <button id="like-button" onClick={handleLike}>
-            Like this bar? Save it! ⭐️
+            Like this place? Save it! ⭐️
           </button>
         </div>
         <div className="establishment-second-cell">
@@ -119,7 +119,9 @@ export default function ShowEstablishment({ user }) {
           <h2>Photo Gallery</h2>
           <Carousel>
             {establishment?.photos?.map((photo) => {
-              return <img className="venue-photo" src={photo} alt="photo" />;
+              return (
+                <img className="venue-photo" src={photo} alt="Establishment" />
+              );
             })}
           </Carousel>
         </section>
